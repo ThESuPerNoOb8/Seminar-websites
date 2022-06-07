@@ -5,15 +5,30 @@
         <title>Home</title>
     </head>
     <body>
-        <nav class="navBar">
-            <a href="index.html">Home</a>
-            <a href="Timeline.html">Timeline</a>
-        </nav>
+        <div class="navBar">
+            <button id="homeButton" onclick="window.location.href='index.html'">Home</button>
+            <button id="timelineButton" onclick="window.location.href='Timeline.html'">Timeline</button>
+        </div>
         <div id="table-of-contents">
-            <ul>
-                <li>Info</li>
+            <p id="table-top">Table of Contents</p>
+            <ul id="table-content">
+                <li><a  href="#info-price">Pricing</a></li>
+                <li><a href="#VS.">D.I.Y. vs. Hiring</a></li>
             </ul>
  
+        </div>
+        <hr>
+        <div>
+            <h1 id="mainHeader">Websites in 2022</h1>
+        </div>
+        <h2 class="headers">Pricing</h2>
+        <img id="price-img" src="https://prowebsitedesignsanjose.com/wp-content/uploads/2022/02/How-Much-Does-Website-Design-Cost-in-2022.png" >
+        <div id="info-price">
+            <p class="homeContent">The average cost for a website in 2022 is between $2,500 and $38,000 and over. <br>Is it worth paying that much for a website? It can be, but it really depends on where your buying it from. It's best to do research and look at the reviews on the person or company designing your website.</p>
+        </div>
+        <h2 id="VS." class="headers">Doing it yourself VS. Hiring someone</h2>
+        <div id="info-work">
+        <p class="homeContent">Doing it yourself will require html, css and Javascript knowledge.You can find free classes online, but it takes a lot of time and effort. If your going to hire someone you should check their previous work to see if they meet your standards. Hiring someone will save time, but cost more.</p>
         </div>
     </body>
 </html>
